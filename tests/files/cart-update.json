@@ -1,0 +1,155 @@
+{
+  "action": "Update",
+  "resource": {
+    "typeId": "cart",
+    "id": "2ea466e1-8d17-4dc7-94df-95324d4ce2b4",
+    "obj": {
+      "type": "Cart",
+      "id": "2ea466e1-8d17-4dc7-94df-95324d4ce2b4",
+      "version": 15,
+      "lastMessageSequenceNumber": 1,
+      "createdAt": "2021-02-08T20:04:39.818Z",
+      "lastModifiedAt": "2021-02-08T20:16:33.328Z",
+      "lastModifiedBy": {
+        "clientId": "iNEVwdzBqOakPrL02H3MfhgX",
+        "isPlatformClient": false,
+        "anonymousId": "069f915f-1a38-4563-932d-886522b8e75b"
+      },
+      "createdBy": {
+        "clientId": "iNEVwdzBqOakPrL02H3MfhgX",
+        "isPlatformClient": false,
+        "anonymousId": "069f915f-1a38-4563-932d-886522b8e75b"
+      },
+      "lineItems": [
+        {
+          "id": "2b624bb4-17ed-4ac3-bfcf-0bdd1e20a841",
+          "productId": "da9d2ab6-78f7-465e-aef0-9df1da2674f8",
+          "name": { "en-US": "test" },
+          "productType": {
+            "typeId": "product-type",
+            "id": "709c1c59-b5c0-4007-9130-6046b5fce15c",
+            "version": 1
+          },
+          "productSlug": { "en-US": "test" },
+          "variant": {
+            "id": 1,
+            "sku": "test",
+            "key": "test",
+            "prices": [
+              {
+                "value": {
+                  "type": "centPrecision",
+                  "currencyCode": "USD",
+                  "centAmount": 1000,
+                  "fractionDigits": 2
+                },
+                "id": "2216b3c6-58aa-4319-af7a-a1636e4f3f59",
+                "country": "US"
+              }
+            ],
+            "images": [],
+            "attributes": [],
+            "assets": []
+          },
+          "price": {
+            "value": {
+              "type": "centPrecision",
+              "currencyCode": "USD",
+              "centAmount": 1000,
+              "fractionDigits": 2
+            },
+            "id": "2216b3c6-58aa-4319-af7a-a1636e4f3f59",
+            "country": "US"
+          },
+          "quantity": 1,
+          "discountedPricePerQuantity": [],
+          "supplyChannel": { "typeId": "channel", "id": "3c64afcc-4f57-461c-9366-71576b5e7f50" },
+          "addedAt": "2021-02-08T20:47:04.933Z",
+          "lastModifiedAt": "2021-02-08T20:47:04.933Z",
+          "state": [
+            {
+              "quantity": 1,
+              "state": { "typeId": "state", "id": "3e7b8c7f-937e-460b-8a0e-c553e600ee6f" }
+            }
+          ],
+          "priceMode": "Platform",
+          "totalPrice": {
+            "type": "centPrecision",
+            "currencyCode": "USD",
+            "centAmount": 1000,
+            "fractionDigits": 2
+          },
+          "lineItemMode": "Standard"
+        }
+      ],
+      "cartState": "Active",
+      "totalPrice": {
+        "type": "centPrecision",
+        "currencyCode": "USD",
+        "centAmount": 4000,
+        "fractionDigits": 2
+      },
+      "country": "US",
+      "shippingInfo": {
+        "shippingMethodName": "standard",
+        "price": {
+          "type": "centPrecision",
+          "currencyCode": "USD",
+          "centAmount": 1000,
+          "fractionDigits": 2
+        },
+        "shippingRate": {
+          "price": {
+            "type": "centPrecision",
+            "currencyCode": "USD",
+            "centAmount": 1000,
+            "fractionDigits": 2
+          },
+          "tiers": []
+        },
+        "deliveries": [],
+        "shippingMethod": {
+          "typeId": "shipping-method",
+          "id": "771be0ea-9444-4b55-90e1-a3aa71e0741e"
+        },
+        "shippingMethodState": "MatchesCart"
+      },
+      "customLineItems": [],
+      "discountCodes": [],
+      "inventoryMode": "None",
+      "taxMode": "External",
+      "taxRoundingMode": "HalfEven",
+      "taxCalculationMode": "LineItemLevel",
+      "deleteDaysAfterLastModification": 90,
+      "refusedGifts": [],
+      "origin": "Customer",
+      "shippingAddress": {
+        "id": "exampleAddress",
+        "title": "My Address",
+        "salutation": "Mr.",
+        "firstName": "Example",
+        "lastName": "Person",
+        "streetName": "Examplary Street",
+        "streetNumber": "4711",
+        "additionalStreetInfo": "Backhouse",
+        "postalCode": "80933",
+        "city": "Exemplary City",
+        "region": "Exemplary Region",
+        "country": "US",
+        "company": "My Company Name",
+        "department": "Sales",
+        "building": "Hightower 1",
+        "apartment": "247",
+        "pOBox": "2471",
+        "phone": "+49 89 12345678",
+        "mobile": "+49 171 2345678",
+        "email": "mail@mail.com",
+        "fax": "+49 89 12345679",
+        "additionalAddressInfo": "no additional Info",
+        "externalId": "Information not needed",
+        "key": "exampleKey"
+      },
+      "itemShippingAddresses": []
+    }
+  }
+}

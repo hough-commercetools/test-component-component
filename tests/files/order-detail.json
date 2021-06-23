@@ -1,0 +1,440 @@
+{
+    "type": "Order",
+    "id": "d33ccd4b-48a8-4582-9a88-a926d49b6fe4",
+    "version": 3,
+    "lastMessageSequenceNumber": 2,
+    "createdAt": "2020-05-27T14:16:27.356Z",
+    "lastModifiedAt": "2020-05-27T14:16:28.942Z",
+    "lastModifiedBy": {
+        "clientId": "CDL4hKuJRVUHmyCgVX2wWQyJ",
+        "isPlatformClient": false
+    },
+    "createdBy": {
+        "clientId": "CDL4hKuJRVUHmyCgVX2wWQyJ",
+        "isPlatformClient": false
+    },
+    "orderNumber": "13371000005",
+    "customerEmail": "john@foo.com",
+    "anonymousId": "635907f9-500f-4076-8eec-88eb4675706c",
+    "locale": "en-GB",
+    "totalPrice": {
+        "type": "centPrecision",
+        "currencyCode": "GBP",
+        "centAmount": 159500,
+        "fractionDigits": 2
+    },
+    "taxedPrice": {
+        "totalNet": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 132917,
+            "fractionDigits": 2
+        },
+        "totalGross": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 159500,
+            "fractionDigits": 2
+        },
+        "taxPortions": [
+            {
+                "rate": 0.2,
+                "amount": {
+                    "type": "centPrecision",
+                    "currencyCode": "GBP",
+                    "centAmount": 26583,
+                    "fractionDigits": 2
+                },
+                "name": "standard"
+            }
+        ]
+    },
+    "country": "GB",
+    "orderState": "Open",
+    "paymentState": "Paid",
+    "orderStatus": "Open",
+    "syncInfo": [],
+    "returnInfo": [],
+    "shippingInfo": {
+        "shippingMethodName": "standard",
+        "price": {
+            "type": "centPrecision",
+            "currencyCode": "GBP",
+            "centAmount": 1000,
+            "fractionDigits": 2
+        },
+        "shippingRate": {
+            "price": {
+                "type": "centPrecision",
+                "currencyCode": "GBP",
+                "centAmount": 1000,
+                "fractionDigits": 2
+            },
+            "tiers": []
+        },
+        "taxRate": {
+            "name": "standard",
+            "amount": 0.2,
+            "includedInPrice": true,
+            "country": "GB",
+            "id": "RNvSRMxo",
+            "subRates": []
+        },
+        "taxCategory": {
+            "typeId": "tax-category",
+            "id": "4ab46fed-fe7c-466f-ba1b-896fdd0eb981"
+        },
+        "deliveries": [],
+        "shippingMethod": {
+            "typeId": "shipping-method",
+            "id": "916e926e-f1fe-468c-a609-20d0878eb065"
+        },
+        "discountedPrice": {
+            "value": {
+                "type": "centPrecision",
+                "currencyCode": "GBP",
+                "centAmount": 0,
+                "fractionDigits": 2
+            },
+            "includedDiscounts": [
+                {
+                    "discount": {
+                        "typeId": "cart-discount",
+                        "id": "c93abe0b-857a-419c-8466-f8ec22e933fc"
+                    },
+                    "discountedAmount": {
+                        "type": "centPrecision",
+                        "currencyCode": "GBP",
+                        "centAmount": 1000,
+                        "fractionDigits": 2
+                    }
+                }
+            ]
+        },
+        "taxedPrice": {
+            "totalNet": {
+                "type": "centPrecision",
+                "currencyCode": "GBP",
+                "centAmount": 0,
+                "fractionDigits": 2
+            },
+            "totalGross": {
+                "type": "centPrecision",
+                "currencyCode": "GBP",
+                "centAmount": 0,
+                "fractionDigits": 2
+            }
+        },
+        "shippingMethodState": "MatchesCart"
+    },
+    "taxMode": "Platform",
+    "inventoryMode": "None",
+    "taxRoundingMode": "HalfEven",
+    "taxCalculationMode": "LineItemLevel",
+    "origin": "Customer",
+    "lineItems": [
+        {
+            "id": "2c0b933f-9918-48bf-9e63-01b2bb31077a",
+            "productId": "1337",
+            "name": {
+                "en-GB": "test"
+            },
+            "productType": {
+                "typeId": "product-type",
+                "id": "b9a1730e-f4f0-49f5-a938-53804de66d12"
+            },
+            "productSlug": {
+                "en-GB": "test"
+            },
+            "variant": {
+                "id": 1,
+                "sku": "1337",
+                "key": "1",
+                "prices": [
+                    {
+                        "value": {
+                            "type": "centPrecision",
+                            "currencyCode": "GBP",
+                            "centAmount": 20000,
+                            "fractionDigits": 2
+                        },
+                        "id": "ff0dea38-d820-474f-a9a9-90e9468d508d",
+                        "discounted": {
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "GBP",
+                                "centAmount": 16000,
+                                "fractionDigits": 2
+                            },
+                            "discount": {
+                                "typeId": "product-discount",
+                                "id": "ff608742-7453-4455-8305-93fe4072be8b"
+                            }
+                        }
+                    }
+                ],
+                "images": [],
+                "attributes": [
+                     {
+                        "name": "productDisplayTitle",
+                        "value": {
+                            "en-GB": "test"
+                        }
+                    },
+                    {
+                        "name": "variantTitle",
+                        "value": {
+                            "en-GB": "test variant title"
+                        }
+                    },
+                    {
+                        "name": "attr1",
+                        "value": {
+                            "pl": "2333",
+                            "en-GB": "123"
+                        }
+                    },
+                    {
+                        "name": "attr2",
+                        "value": {
+                            "pl": "pl333",
+                            "en-GB": "333"
+                        }
+                    },
+                    {
+                        "name": "List",
+                        "value": {
+                            "label": "B",
+                            "key": "B"
+                        }
+                    },
+                    {
+                        "name": "List-set",
+                        "value": [
+                            {
+                                "label": "C",
+                                "key": "C"
+                            },
+                            {
+                                "label": "A",
+                                "key": "A"
+                            },
+                            {
+                                "label": "B",
+                                "key": "B"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "List-set-localized",
+                        "value": [
+                            {
+                                "key": "B",
+                                "label": {
+                                    "en-GB": "EN-B",
+                                    "pl": "PL-B"
+                                }
+                            },
+                            {
+                                "key": "A",
+                                "label": {
+                                    "en-GB": "EN-A",
+                                    "pl": "PL-A"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Text-set-localized",
+                        "value": [
+                            {
+                                "pl": "DAB",
+                                "en-GB": "DAB"
+                            },
+                            {
+                                "pl": "FM",
+                                "en-GB": "FM"
+                            },
+                            {
+                                "en-GB": "USB"
+                            },
+                            {
+                                "en-GB": "Internet"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Text-localized",
+                        "value": {
+                            "pl": "DAB;FM;USB",
+                            "en-GB": "DAB;FM;USB;CD"
+                        }
+                    }
+                ],
+                "assets": [],
+                "availability": {
+                    "channels": {
+                        "39ac4117-bb01-4c80-b2fb-38cdf616dba8": {
+                            "isOnStock": true,
+                            "availableQuantity": 123
+                        }
+                    }
+                }
+            },
+            "price": {
+                "value": {
+                    "type": "centPrecision",
+                    "currencyCode": "GBP",
+                    "centAmount": 20000,
+                    "fractionDigits": 2
+                },
+                "id": "ff0dea38-d820-474f-a9a9-90e9468d508d",
+                "discounted": {
+                    "value": {
+                        "type": "centPrecision",
+                        "currencyCode": "GBP",
+                        "centAmount": 16000,
+                        "fractionDigits": 2
+                    },
+                    "discount": {
+                        "typeId": "product-discount",
+                        "id": "ff608742-7453-4455-8305-93fe4072be8b",
+                        "obj": {
+                            "id": "ff608742-7453-4455-8305-93fe4072be8b",
+                            "version": 2,
+                            "createdAt": "2020-05-25T12:48:48.530Z",
+                            "lastModifiedAt": "2020-05-25T12:48:54.142Z",
+                            "lastModifiedBy": {
+                                "isPlatformClient": true,
+                                "user": {
+                                    "typeId": "user",
+                                    "id": "7f762385-b82a-4537-9fda-1668a4104c0b"
+                                }
+                            },
+                            "createdBy": {
+                                "isPlatformClient": true,
+                                "user": {
+                                    "typeId": "user",
+                                    "id": "7f762385-b82a-4537-9fda-1668a4104c0b"
+                                }
+                            },
+                            "value": {
+                                "type": "relative",
+                                "permyriad": 2000
+                            },
+                            "predicate": "sku = \"1337\"",
+                            "name": {
+                                "en-GB": "20% off all Retro design products"
+                            },
+                            "description": {
+                                "en-GB": "20% off all Retro design products"
+                            },
+                            "isActive": true,
+                            "isValid": true,
+                            "sortOrder": "0.05",
+                            "references": [],
+                            "attributeTypes": {}
+                        }
+                    }
+                }
+            },
+            "quantity": 10,
+            "discountedPrice": {
+                "value": {
+                    "type": "centPrecision",
+                    "currencyCode": "GBP",
+                    "centAmount": 15950,
+                    "fractionDigits": 2
+                },
+                "includedDiscounts": [
+                    {
+                        "discount": {
+                            "typeId": "cart-discount",
+                            "id": "d0051db4-f6fe-49a0-a554-89504eb51ed5"
+                        },
+                        "discountedAmount": {
+                            "type": "centPrecision",
+                            "currencyCode": "GBP",
+                            "centAmount": 50,
+                            "fractionDigits": 2
+                        }
+                    }
+                ]
+            },
+            "discountedPricePerQuantity": [
+                {
+                    "quantity": 10,
+                    "discountedPrice": {
+                        "value": {
+                            "type": "centPrecision",
+                            "currencyCode": "GBP",
+                            "centAmount": 15950,
+                            "fractionDigits": 2
+                        },
+                        "includedDiscounts": [
+                            {
+                                "discount": {
+                                    "typeId": "cart-discount",
+                                    "id": "d0051db4-f6fe-49a0-a554-89504eb51ed5"
+                                },
+                                "discountedAmount": {
+                                    "type": "centPrecision",
+                                    "currencyCode": "GBP",
+                                    "centAmount": 50,
+                                    "fractionDigits": 2
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "taxRate": {
+                "name": "standard",
+                "amount": 0.2,
+                "includedInPrice": true,
+                "country": "GB",
+                "id": "RNvSRMxo",
+                "subRates": []
+            },
+            "state": [
+                {
+                    "quantity": 10,
+                    "state": {
+                        "typeId": "state",
+                        "id": "70efde17-9cc1-43d7-bf4b-c408873240a2"
+                    }
+                }
+            ],
+            "priceMode": "Platform",
+            "totalPrice": {
+                "type": "centPrecision",
+                "currencyCode": "GBP",
+                "centAmount": 159500,
+                "fractionDigits": 2
+            },
+            "taxedPrice": {
+                "totalNet": {
+                    "type": "centPrecision",
+                    "currencyCode": "GBP",
+                    "centAmount": 132917,
+                    "fractionDigits": 2
+                },
+                "totalGross": {
+                    "type": "centPrecision",
+                    "currencyCode": "GBP",
+                    "centAmount": 159500,
+                    "fractionDigits": 2
+                }
+            },
+            "lineItemMode": "Standard"
+        }
+    ],
+    "customLineItems": [],
+    "transactionFee": true,
+    "cart": {
+        "typeId": "cart",
+        "id": "d7328436-b4fb-4a92-a786-e971801bf69b"
+    },
+    "itemShippingAddresses": [],
+    "refusedGifts": []
+}
